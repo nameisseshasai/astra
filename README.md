@@ -29,6 +29,8 @@ The app analyzes the camera feed in real-time using a **dual AI model system** a
 
 ---
 
+## APK URL : https://drive.google.com/file/d/17kI7v5rfE-28YAXLuT2dplIsxN7SS3zM/view?usp=sharing
+
 ## ✨ Key Features
 
 ### 🎥 Real-Time Scene Analysis
