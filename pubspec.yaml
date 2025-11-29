@@ -1,0 +1,59 @@
+name: astra
+description: "A local vision and haptic accessibility application for vision and hearing disability (DeafBlind) people."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Cactus SDK for local AI vision model
+  cactus: ^1.2.0
+  
+  # State Management
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.7
+  
+  # Camera
+  camera: ^0.11.0+2
+  
+  # Text-to-Speech
+  flutter_tts: ^4.2.0
+  
+  # Haptic Feedback & Vibration
+  vibration: ^3.0.0
+  
+  # Permissions
+  permission_handler: ^12.0.1
+  
+  # Dependency Injection
+  get_it: ^8.0.3
+  injectable: ^2.5.0
+  
+  # Utilities
+  rxdart: ^0.28.0
+  dartz: ^0.10.1
+  
+  # Image processing
+  image: ^4.3.0
+  
+  # File system
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  injectable_generator: ^2.6.2
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/icons/ic_launcher.png
